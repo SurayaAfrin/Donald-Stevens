@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    background: #1c1b1b;
+}
+.navbar{
+    float: right;
+}
+.navbar li a{
+    font-size: 10px;
+}
+.section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 60px;
+}
+
+.hero{
+    background-image: url(../images/hero.jpg);
+    width: 100%;
+    height: 180vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    transform-origin: 30% 300%;
+    transform: rotate(270deg);
+}
+.hero h2{
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    transform-origin: 25% 150%;
+    transform: rotate(270deg);
+}
+.about h2{
+    color: #c2bcbc;
+    text-align: center;
+    text-transform: uppercase;
+}
+.about p{
+    color: #c2bcbc;
+    font-size: 12px;
+    margin: 0 80px;
+    margin-top: 10px;
+}
+.press{
+    background-image: url(../images/press\ section.jpg);
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.press h2{
+    color: #c2bcbc;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+}
+.press h2::before{
+    margin-top: 10px;
+    content: '';
+    height: 2px;
+    width: 100px;
+    background-color: #c2bcbc;
+    position: absolute;
+    top: 100%;
+    left: 45%;
+}
+.music{
+    background-image: url(../images/music\ sec.jfif);
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.music h2{
+    color: #f0f9ff;
+    font-weight: 700;
+    margin-top: 150px;
+    text-transform: uppercase;
+    text-align: left;
+    position: relative;
+}
+.music h2::before{
+    margin-top: 10px;
+    content: '';
+    height: 2px;
+    width: 70px;
+    background-color: #f0f9ff;
+    position: absolute;
+    top: 100%;
+    left: 1%;
+}
+.music p{
+    text-transform: uppercase;
+    color: #fff;
+}
+.music audio{
+    width: 80%;
+}
+.book{
+    background-image: url(../images/book-cover.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .book h2{
+    margin-top: 100px;
+    font-size: 30px;
+    color: #c2bcbc;
+    text-align: center;
+    text-transform: uppercase;
+}
+.book h3{
+    margin-top: 50px;
+    font-size: 30px;
+    color: #c2bcbc;
+    text-align: center;
+    text-transform: uppercase;
+} */
+.book h2{
+    color: #c2bcbc;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+.book h2::before{
+    margin-top: 10px;
+    content: '';
+    height: 2px;
+    width: 110px;
+    background-color: #c2bcbc;
+    position: absolute;
+    top: 100%;
+    left: 43%;
+}
+.book h4{
+    font-size: 15px;
+    color: #c2bcbc;
+    text-transform: uppercase;
+}
+.book p{
+    font-size: 10px;
+    color: #c2bcbc;
+    text-transform: uppercase;
+}
+
+/* footer */
+.footer-dark {
+    padding:5px 0;
+    color:#f0f9ff;
+    background-color:#000;
+}  
+  
+@media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+}
+    
+@media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+}
+  
+.footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+}
+  
+.footer-dark .item.social {
+    text-align:center;
+}
+  
+@media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+}
+  
+.footer-dark .item.social > a {
+    font-size:15px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:8px 0;
+    color:#fff;
+    opacity:0.75;
+}
+  
+.footer-dark .item.social > a:hover {
+    opacity:0.9;
+}
+  
+.footer-dark .copyright {
+    text-align:left;
+    padding-top:10px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+}
+.footer-dark .email {
+    text-align:center;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+}
+  
